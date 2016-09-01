@@ -46,3 +46,20 @@ Creates the ```babel``` entries in ```package.json```.
 ```sh
 npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
 ```
+
+Creates the ```mocha/chai``` entries in ```package.json```.
+```sh
+npm install --save-dev mocha chai
+```
+
+Creates the ```jsdom``` entries in ```package.json```. This will handle the DOM iteractions without the need to use a browser.
+```sh
+npm install --save-dev jsdom
+```
+
+Creates the ```immutable``` entries in ```package.json```.
+```sh
+npm install --save immutable 
+npm install --save-dev chai-immutable
+```
+
