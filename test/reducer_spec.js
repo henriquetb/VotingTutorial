@@ -54,4 +54,23 @@ describe('Reducer', () => {
             entries: ['Trainspotting']
         }));
     });
+
+    /**
+     * Just a demonstration of how to use the reducer with JS reduce function
+     * */
+    it('can be used with reduce', () => {
+        const actions = [
+            {type: 'SET_ENTRIES', entries: ['Trainspotting', '28 Days Later']},
+            {type: 'NEXT'},
+            {type: 'VOTE', entry: 'Trainspotting'},
+            {type: 'VOTE', entry: '28 Days Later'},
+            {type: 'VOTE', entry: 'Trainspotting'},
+            {type: 'NEXT'}
+        ];
+        const finalState = actions.reduce(reducer, Map());
+
+        expect(finalState).to.equal(fromJS({
+            winner: 'Trainspotting'
+        }));
+    });
 });
