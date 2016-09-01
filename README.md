@@ -85,3 +85,7 @@ describe('Test imumutability of ', () => {
 });
 ```
 
+Creates the ```redux``` entry in ```package.json```.
+```sh
+npm install --save redux
+```
