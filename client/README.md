@@ -41,3 +41,8 @@ webpack
 webpack-dev-server
 ```
 and open http://localhost:8080 in the your browser.
+
+Creates the ```babel``` entries in ```package.json```.
+```sh
+npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
+```
