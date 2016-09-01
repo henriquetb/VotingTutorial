@@ -63,3 +63,6 @@ npm install --save immutable
 npm install --save-dev chai-immutable
 ```
 
+npm install --save react react-dom
+
+npm install --save-dev react-hot-loader
