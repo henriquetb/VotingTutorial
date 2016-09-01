@@ -89,3 +89,8 @@ Creates the ```redux``` entry in ```package.json```.
 ```sh
 npm install --save redux
 ```
+
+Creates the ```Socket.io``` entry in ```package.json```.
+```sh
+npm install --save socket.io
+```
